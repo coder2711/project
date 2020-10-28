@@ -81,5 +81,11 @@ p{
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: serif
+    font-family: 'Henny Penny', cursive;
+    font-size: 20px;
+}
+.link:hover{
+    background-color: chartreuse;
+    font-size: 25px;
+    color:darkred;
 }
