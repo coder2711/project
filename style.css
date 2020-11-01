@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 600px;
+    text-align: center;
 }
 
 #img1 {
@@ -69,7 +70,7 @@ p{
 }
 .menu{
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     z-index: 20;
@@ -88,4 +89,13 @@ p{
     background-color: chartreuse;
     font-size: 25px;
     color:darkred;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: firebrick;
+}
+html{
+    scroll-behavior: smooth;
 }
